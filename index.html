@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos Contar</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Progressão Aritimética</h1>
+    </header>
+    
+    <section id="middle_block">
+        <div>
+            <label for="inicio">Inicío:</label>
+            <input type="number" name="inicio" id="ini">
+            <br>
+            <label for="fim">Fim:  </label>
+            <input type="number" name="fim" id="fim">
+            <br>
+            <label for="raz">Razão:</label>
+            <input type="number" name="raz" id="pas">
+
+            <input type="button" value="Calcular" onclick="calcular()">
+        </div>
+        <div>
+            <p id="res">Preparando a Contagem...</p>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <p>&copy; CursoemVídeo</p>
+    </footer>
+    
+</body>
+</html>
